@@ -1,1 +1,8 @@
 D:\Users\101-06\Desktop\air2\air22\air22\bin\Debug\air22.exe.config
+D:\Git\Airplane\air22\air22\bin\Debug\air22.exe.config
+D:\Git\Airplane\air22\air22\bin\Debug\air22.exe
+D:\Git\Airplane\air22\air22\bin\Debug\air22.pdb
+D:\Git\Airplane\air22\air22\obj\Debug\air22.csprojResolveAssemblyReference.cache
+D:\Git\Airplane\air22\air22\obj\Debug\air22.csproj.CoreCompileInputs.cache
+D:\Git\Airplane\air22\air22\obj\Debug\air22.exe
+D:\Git\Airplane\air22\air22\obj\Debug\air22.pdb

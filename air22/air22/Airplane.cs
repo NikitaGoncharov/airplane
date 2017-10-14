@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace air22
+﻿namespace air22
 {
     class Airplane
     {
@@ -15,10 +9,8 @@ namespace air22
         }
         public int Capacity { get; private set; }
         public bool AutoPilotOn { get; set; }
-
-        /// <summary>
-        /// Fuel consuption. kg/km
-        /// </summary>
+        public bool Forsage { get; set; }
+        
         public float Consuption { get; private set; }
 
         public int Altitude { get; private set; }
@@ -41,6 +33,7 @@ namespace air22
 
         public int Climb(int increment)
         {
+            if (Forsage) increment *= 2;
             if (!AutoPilotOn) return Altitude += increment;
 
             if (Altitude + increment < MaxAltitudeAuto)
