@@ -1,6 +1,6 @@
 ﻿namespace air22
 {
-    class Airplane
+    abstract class Airplane
     {
         static Airplane()
         {
@@ -31,7 +31,7 @@
             _altitudeIncrement = altitudeIncrement;
         }
 
-        public int Climb(int increment)
+        private int Climb(int increment)
         {
             if (Forsage) increment *= 2;
             if (!AutoPilotOn) return Altitude += increment;
@@ -44,7 +44,7 @@
             return Altitude = MaxAltitudeAuto;
         }
 
-        public int Down(int increment)
+        private int Down(int increment)
         {
             if (AutoPilotOn)
             {
