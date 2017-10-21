@@ -9,3 +9,6 @@ D:\Git\Airplane\air22\air22\obj\Debug\air22.pdb
 D:\Users\101-06\Desktop\air4\air22\air22\bin\Debug\air22.exe.config
 D:\Users\101-06\Desktop\air4\air22\air22\obj\Debug\air22.exe
 D:\Users\101-06\Desktop\air4\air22\air22\obj\Debug\air22.pdb
+D:\Users\101-06\Desktop\air4\air22\air22\bin\Debug\air22.exe
+D:\Users\101-06\Desktop\air4\air22\air22\bin\Debug\air22.pdb
+D:\Users\101-06\Desktop\air4\air22\air22\obj\Debug\air22.csprojResolveAssemblyReference.cache

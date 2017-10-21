@@ -6,25 +6,25 @@ namespace air22
     {
         static void Main(string[] args)
         {
-            Airplane airplane = new Airplane(140, 2.26F, 100);
-            bool Enable = true;
+            Airplane airpla = new Airpla(140, 2.26F, 100);
+            ConsoleKeyInfo input = new ConsoleKeyInfo();
             int tmp;
-            while (Enable)
+            while (input.Key != ConsoleKey.Escape)
             {
                 Console.Write("Включен ли автопилот? (0, 1)= ");
                 tmp = int.Parse(Console.ReadLine());
-                if (tmp != 0) airplane.AutoPilotOn = true;
-                else airplane.AutoPilotOn = false;
+                if (tmp != 0) airpla.AutoPilotOn = true;
+                else airpla.AutoPilotOn = false;
                 Console.Write("Включен ли форсаж? (0, 1)= ");
                 tmp = int.Parse(Console.ReadLine());
-                if (tmp != 0) airplane.Forsage = true;
-                else airplane.Forsage = false;
+                if (tmp != 0) airpla.Forsage = true;
+                else airpla.Forsage = false;
                 Console.Write("Введите высоту= ");
-                airplane.SetAltitude(int.Parse(Console.ReadLine()));
+                airpla.SetAltitude(int.Parse(Console.ReadLine()));
                 Console.Clear();
-                Console.WriteLine("Текущая высота= " + airplane.Altitude);
+                Console.WriteLine("Текущая высота= " + airpla.Altitude);
+                input = Console.ReadKey();
             }
-            Console.ReadLine();
         }
     }
 }
